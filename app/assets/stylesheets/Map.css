@@ -1,0 +1,122 @@
+
+
+#mapDiv{
+  width: 72vw;
+  height: 92vh;
+}
+
+.mapRow{
+  width: 100vw;
+  /* padding-left: 10%; */
+}
+
+#SavedLocationCard{
+  width: 20vw;
+  height: 94vh;
+  border: 2px;
+  margin-left: 1em;
+  margin-right: .5em;
+}
+
+
+#mapContDisp{
+  height: 94vh;
+  }
+
+  #mainMapCont{
+    /* border: 2px; */
+    padding-left: 1em;
+
+  }
+  .Suspicious-Activity {
+    background-image: url('https://i.imgur.com/cxmkNQu.png');
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .Arson {
+    background-image: url('https://i.imgur.com/ll0kZvC.png');
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .Vehicle-Related {
+    background-image: url('https://i.imgur.com/L8UeAXg.png');
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .Violence {
+    background-image: url('https://i.imgur.com/LnRmyVs.png');
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .Crime {
+    background-image: url('https://i.imgur.com/Kfp5yRJ.png');
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .Drugs {
+    background-image: url('https://i.imgur.com/GsQxdcz.png');
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+
+.savedLocationHeader{
+  text-align: center;
+  height: 5em;
+  padding-top: 2em;
+  background-color: rgba(182, 179, 179, 0.527)
+}
+
+@media (max-width: 740px) {
+  #mapContDisp{
+    width: 100vw;
+    height: 72vh;
+  }
+  #SavedLocationCard{
+    width: 100vw;
+    height: 20vh;
+  }
+  #mapDiv{
+    width: 100vw;
+    height: 72vh;
+  }
+  #mainMapCont{
+    /* border: 2px; */
+    padding-left: 2em;
+  }
+
+  .savedLocationHeader{
+    text-align: center;
+    height: 5em;
+    padding-top: 2em;
+    background-color: rgba(182, 179, 179, 0.527)
+  }
+
+}
+/* @media (min-width: 800px) and (max-width: 850px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 600px;
+  }
+} */

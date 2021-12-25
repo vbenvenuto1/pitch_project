@@ -1,0 +1,23 @@
+// Place all the styles related to the About controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#aboutContent{
+    opacity: 1;
+    background-color: white;
+}
+.FAQlist{
+    width: 80vh;
+    border: 2px;
+
+}
+
+
+.aboutContainer{
+    background-color: rgb(105, 202, 209)
+}
+
+.sectionBreak{
+    height: 1em;
+    background-color: rgb(105, 202, 209)
+}

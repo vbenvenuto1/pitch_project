@@ -1,0 +1,18 @@
+#addReport {
+  position: absolute;
+  right: 0;
+}
+
+
+.bottomModule{
+  width: 15vw;
+}
+
+#drawer {
+  position: absolute;
+  left: 0;
+}
+
+.mapConsolidate{
+  background-color: rgb(105, 202, 209);
+}
